@@ -1,5 +1,5 @@
 <?php
-require 'database.php';
+require 'database-simplified.php';
 
 // Proceso de creación - Requerido por el documento
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
