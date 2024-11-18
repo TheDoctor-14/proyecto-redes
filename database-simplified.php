@@ -1,5 +1,5 @@
 <?php
-$mysqli = new mysqli('localhost', 'root', 'pass', 'base de datos');
+$mysqli = new mysqli('localhost', 'root', '12345', 'proyecto-solaris');
 
 if ($mysqli->connect_error) {
     die('Connect Error (' . $mysqli->connect_errno . ') ' . $mysqli->connect_error);
